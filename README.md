@@ -6,9 +6,14 @@ A basic utility for uploading images and conducting similarity searches in the W
 yarn && yarn build
 ```
 
-## Running Weaviate
+### Running Weaviate DB
 ```bash
 docker-compose up
+```
+
+### Upload memes
+```bash
+yarn upload-memes
 ```
 
 ## Scripts
@@ -49,5 +54,5 @@ Weaviate CLI for creating schemas and data.
 - `help [command]` - display help for command
 
 ## Links
-* [Weaviate Tutorials](https://weaviate.io/developers/weaviate/tutorials) 
+* [Weaviate Tutorials](https://weaviate.io/developers/weaviate/tutorials)
 * [YouTube Fireship Weaviate Tutorial](https://www.youtube.com/watch?v=Q4XKuJHQGxU)
